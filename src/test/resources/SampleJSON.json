@@ -13,16 +13,11 @@
       "zip": "97201",
       "country": "US"
     },
-    "phoneNumbers": [
+    "phoneNumber":
       {
         "type": "home",
         "number": "+1-555-2300"
       },
-      {
-        "type": "mobile",
-        "number": "+1-555-2301"
-      }
-    ],
     "createdAt": "2024-02-10T14:15:22Z",
     "updatedAt": null
   }
