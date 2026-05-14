@@ -1,4 +1,4 @@
-package model;
+package tests.model;
 
 public class PhoneModel {
 

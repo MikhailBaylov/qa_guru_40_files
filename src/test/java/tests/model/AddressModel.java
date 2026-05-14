@@ -1,18 +1,18 @@
-package model;
+package tests.model;
 
 public class AddressModel {
 
-    private String address;
+    private String street;
     private String city;
     private String state;
     private String zip;
     private String country;
 
-    public String getAddress() {
-        return address;
+    public String getStreet() {
+        return street;
     }
-    public void setAddress (String address) {
-        this.address = address;
+    public void setStreet(String street) {
+        this.street = street;
     }
 
     public String getCity() {

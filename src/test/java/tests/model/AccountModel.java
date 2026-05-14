@@ -1,4 +1,4 @@
-package model;
+package tests.model;
 
 public class AccountModel {
 
@@ -11,6 +11,8 @@ public class AccountModel {
         private double balance;
         private AddressModel address;
         private PhoneModel phoneNumber;
+        private String createdAt;
+        private String updatedAt;
 
         public Integer getId() {
                 return id;
@@ -75,4 +77,17 @@ public class AccountModel {
                 this.phoneNumber = phoneNumber;
       }
 
+      public String getCreatedAt() {
+                return createdAt;
+      }
+      public void setCreatedAt (String createdAt) {
+                this.createdAt = createdAt;
+      }
+
+      public String getUpdatedAt() {
+                return updatedAt;
+      }
+      public void setUpdatedAt (String updatedAt) {
+                this.updatedAt = updatedAt;
+      }
 }
