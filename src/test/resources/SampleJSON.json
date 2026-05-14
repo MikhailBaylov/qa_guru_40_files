@@ -1,0 +1,28 @@
+{
+    "id": 201,
+    "firstName": "Emma",
+    "lastName": "Johnson",
+    "email": "emma.johnson@example.com",
+    "age": 27,
+    "isActive": true,
+    "balance": 3450.5,
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97201",
+      "country": "US"
+    },
+    "phoneNumbers": [
+      {
+        "type": "home",
+        "number": "+1-555-2300"
+      },
+      {
+        "type": "mobile",
+        "number": "+1-555-2301"
+      }
+    ],
+    "createdAt": "2024-02-10T14:15:22Z",
+    "updatedAt": null
+  }
